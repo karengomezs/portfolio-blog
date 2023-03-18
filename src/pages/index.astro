@@ -1,0 +1,59 @@
+---
+import NavBar from "../components/navBar.astro";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Astro</title>
+  </head>
+  <body class="bg-slate-900">
+    <NavBar />
+    <main>
+      <div class="mb-20 text-center sm:mx40">
+        <h1 class="h1 mb-10">
+          Hello, my name is <span class="span">Karen Gómez</span>
+        </h1>
+        <div class="flex flex-col items-center sm:flex-row gap-4">
+          <div class="p flex-1 mx-4">
+            <p>
+              I am a frontEnd developer, currently learning and building new
+              projects since january 2022, I had learned in each one of them and
+              I want to show you them.
+            </p>
+          </div>
+          <div class="flex-1"><img src="/imagen.jpg" alt="" /></div>
+        </div>
+
+        <!-- <div class="flex gap-10">
+          <a href=""><p>Linkedin</p></a>
+          <a href=""><p>git</p></a>
+          <a href=""><p>twitter</p></a>
+        </div> -->
+      </div>
+      <div>
+        <h3>Skills</h3>
+      </div>
+    </main>
+    <style>
+      h1 {
+        @apply text-4xl font-bold  text-white;
+      }
+      span {
+        @apply text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500;
+      }
+      p {
+        @apply text-xl font-medium text-slate-400;
+      }
+      img {
+        @apply w-60 rounded-full;
+      }
+      h3 {
+        @apply text-3xl font-semibold text-white;
+      }
+    </style>
+  </body>
+</html>
