@@ -17,7 +17,7 @@ import NavBar from "../components/navBar.astro";
     />
     <title>Astro</title>
   </head>
-  <body class="bg-slate-900 container max-w-3xl mx-auto">
+  <body class="bg-slate-900 container max-w-3xl mx-auto px-4">
     <NavBar />
     <main>
       <div class="mb-10 text-center sm:text-start">
@@ -46,12 +46,126 @@ import NavBar from "../components/navBar.astro";
             </div>
           </div>
           <div class="flex justify-end">
-            <img src="/imagen.jpg" alt="" />
+            <img class="img" src="/imagen.jpg" alt="" />
           </div>
         </div>
       </div>
-      <div>
-        <h3>Skills</h3>
+      <div class="mb-10 text-center sm:text-start">
+        <h3>Tech Stack</h3>
+        <div class="mt-10 flex justify-center gap-7 flex-wrap">
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+            target="_blank"
+            rel="noreferrer"
+            ><img
+              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg"
+              width="36"
+              height="36"
+              alt="JavaScript"
+            /></a
+          >
+
+          <a href="https://git-scm.com/" target="_blank" rel="noreferrer"
+            ><img
+              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg"
+              width="36"
+              height="36"
+              alt="Git"
+            /></a
+          >
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
+            target="_blank"
+            rel="noreferrer"
+            ><img
+              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg"
+              width="36"
+              height="36"
+              alt="HTML5"
+            /></a
+          >
+          <a
+            href="https://www.w3.org/TR/CSS/#css"
+            target="_blank"
+            rel="noreferrer"
+            ><img
+              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg"
+              width="36"
+              height="36"
+              alt="CSS3"
+            /></a
+          >
+          <a href="https://reactjs.org/" target="_blank" rel="noreferrer"
+            ><img
+              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"
+              width="36"
+              height="36"
+              alt="React"
+            /></a
+          >
+          <a href="https://nextjs.org/docs" target="_blank" rel="noreferrer"
+            ><img
+              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored-dark.svg"
+              width="36"
+              height="36"
+              alt="NextJs"
+            /></a
+          >
+          <a href="https://sass-lang.com/" target="_blank" rel="noreferrer"
+            ><img
+              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/sass-colored.svg"
+              width="36"
+              height="36"
+              alt="Sass"
+            /></a
+          >
+          <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"
+            ><img
+              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg"
+              width="36"
+              height="36"
+              alt="TailwindCSS"
+            /></a
+          >
+
+          <a href="https://vitejs.dev/" target="_blank" rel="noreferrer"
+            ><img
+              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/vite-colored.svg"
+              width="36"
+              height="36"
+              alt="Vite"
+            /></a
+          >
+          <!-- <a href="https://www.figma.com/" target="_blank" rel="noreferrer"
+            ><img
+              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg"
+              width="36"
+              height="36"
+              alt="Figma"
+            /></a
+          > -->
+
+          <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer"
+            ><img
+              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg"
+              width="36"
+              height="36"
+              alt="Bootstrap"
+            /></a
+          >
+          <!-- <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"
+            ><img
+              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg"
+              width="36"
+              height="36"
+              alt="MySQL"
+            /></a
+          > -->
+        </div>
+      </div>
+      <div class="mt-10 text-center sm:text-start">
+        <h3>My projects</h3>
+        <div></div>
       </div>
     </main>
     <style>
@@ -64,7 +178,7 @@ import NavBar from "../components/navBar.astro";
       p {
         @apply text-xl font-medium text-center sm:text-start sm:text-justify  text-slate-400;
       }
-      img {
+      .img {
         @apply w-60 rounded-full;
       }
       h3 {
