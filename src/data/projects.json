@@ -1,0 +1,27 @@
+[
+  {
+    "img": "/drawarrow.png",
+    "title": "Draw Arrow",
+    "text": "Draw arrow is about making a drawing with the keyboard arrows on a canvas starting from a fixed point."
+  },
+  {
+    "img": "/todolist.png",
+    "title": "To Do List",
+    "text": "To do list, it's a project where user can add, remove, mark as done when desired, in addition, the lastest result of your interaction is save in the browser."
+  },
+  {
+    "img": "/arrowmusic.png",
+    "title": "Music Keyword",
+    "text": "This is a project that produces a different sound for each key the user presses."
+  },
+  {
+    "img": "/geometric.png",
+    "title": "Geometric Calculator",
+    "text": "This project is about choosing a geometric figure of which you want to calculate the area or perimeter."
+  },
+  {
+    "img": "/mathproject.png",
+    "title": "Math Poject",
+    "text": "Choose the value to calculate mode, median, average and discounts."
+  }
+]
