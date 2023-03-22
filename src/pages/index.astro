@@ -1,6 +1,6 @@
 ---
-import NavBar from "../components/navBar.astro";
-import projectsData from "../data/projects.json";
+import NavBar from "@/components/navBar.astro";
+import projectsData from "@/data/projects.json";
 ---
 
 <html lang="en">
@@ -16,7 +16,7 @@ import projectsData from "../data/projects.json";
       crossorigin="anonymous"
       referrerPolicy="no-referrer"
     />
-    <title>Astro</title>
+    <title>Karen Gómez</title>
   </head>
   <body class="bg-slate-900 container max-w-3xl mx-auto px-4">
     <NavBar />
@@ -168,16 +168,16 @@ import projectsData from "../data/projects.json";
         <h3>My projects</h3>
         <!-- div de todos los proyectos -->
         <div class="flex flex-col mt-10">
-          <!-- div primer proyecto -->
+          <!-- div cada proyecto-->
 
           {
             projectsData.map((project) => {
               return (
-                <div class="flex flex-col sm:flex-row rounded-md border-2 border-gray-400 m-2">
+                <div class="flex flex-col sm:flex-row rounded-md border-2 border-slate-400 m-2">
                   <div class="w-100 h-15">
                     <img class="img-project" src={project.img} alt="" />
                   </div>
-                  <div class="p-4 flex flex-col items-center">
+                  <div class="p-4 flex flex-col gap-2 items-center">
                     <h2 class="title-project">{project.title}</h2>
                     <p class="text-project">{project.text}</p>
                     <button>
@@ -192,26 +192,6 @@ import projectsData from "../data/projects.json";
               );
             })
           }
-
-          <!-- <div
-            class="flex flex-col sm:flex-row rounded-md border-2 border-gray-400 m-2 flex"
-          >
-          <!--
-            <div class="w-100 h-15">
-              <img class="img-project" src="/drawarrow.png" alt="" />
-            </div>
-            <div class="p-4 flex flex-col items-center">
-              <h2 class="title-project">Draw Arrow</h2>
-              <p class="text-project">
-                Draw arrow is about making a drawing with the keyboard arrows on
-                a canvas starting from a fixed point.
-              </p>
-              <button>Go to GitHub</button>
-              <i class="fa-brands fa-github text-white"></i>
-            </div> -->
-          <!-- </div>  -->
-
-          <!-- div cuarto proyecto -->
         </div>
         <!-- termina div de todos los proyectos -->
       </div>
@@ -222,7 +202,7 @@ import projectsData from "../data/projects.json";
         @apply text-4xl font-bold mb-10 sm:mb-20  text-white;
       }
       .title-project {
-        @apply text-center font-semibold sm:text-start  text-white;
+        @apply text-center font-semibold sm:text-start text-white;
       }
       .text-project {
         @apply text-justify  text-slate-400;
@@ -231,7 +211,7 @@ import projectsData from "../data/projects.json";
         @apply w-60 rounded-full;
       }
       .img-project {
-        @apply object-cover rounded;
+        @apply object-cover rounded-t;
       }
       button {
         @apply text-center font-semibold text-white bg-slate-700 rounded-md w-40 h-8 my-2;
