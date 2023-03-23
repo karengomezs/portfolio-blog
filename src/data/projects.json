@@ -1,8 +1,8 @@
 [
   {
-    "img": "/drawarrow.png",
-    "title": "Draw Arrow",
-    "text": "Draw arrow is about making a drawing with the keyboard arrows on a canvas starting from a fixed point."
+    "img": "/moveup.png",
+    "title": "Move Up",
+    "text": "Web application that allows you to view the available physical activity classes, allows you to register, log in and in turn make reservations in the city where the class is located."
   },
   {
     "img": "/todolist.png",
@@ -23,5 +23,10 @@
     "img": "/mathproject.png",
     "title": "Math Poject",
     "text": "Choose the value to calculate mode, median, average and discounts."
+  },
+  {
+    "img": "/drawarrow.png",
+    "title": "Draw Arrow",
+    "text": "Draw arrow is about making a drawing with the keyboard arrows on a canvas starting from a fixed point."
   }
 ]
