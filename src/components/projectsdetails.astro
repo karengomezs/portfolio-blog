@@ -8,15 +8,26 @@ import projectsData from "@/data/projects.json";
   {
     projectsData.map((project) => {
       return (
-        <div class="flex flex-col sm:flex-row rounded-md border-2 border-slate-600 hover:border-white m-2">
-          <div class="w-100 h-15">
-            <img class="img-project" src={project.img} alt="" />
+        <>
+          <div class="flex flex-col sm:flex-row rounded-md border-2 border-slate-600 hover:border-white m-2">
+            <div class="w-100 h-15">
+              <img class="img-project" src={project.img} alt="" />
+            </div>
+            <div class="p-4 flex flex-col gap-2 items-center">
+              <h2 class="title-project">{project.title}</h2>
+              <p class="text-project">{project.text}</p>
+              <div class="flex flex-wrap gap-3">
+                {project.techStack.map((tool) => {
+                  return (
+                    <div class="">
+                      <p class="text-project">{tool}</p>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
           </div>
-          <div class="p-4 flex flex-col gap-2 items-center">
-            <h2 class="title-project">{project.title}</h2>
-            <p class="text-project">{project.text}</p>
-          </div>
-        </div>
+        </>
       );
     })
   }
