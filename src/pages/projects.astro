@@ -1,0 +1,25 @@
+---
+import NavBar from "@/components/navBar.astro";
+import ProjectsDetails from "@/components/projectsdetails.astro";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body class="bg-slate-900 container max-w-3xl mx-auto px-4">
+    <NavBar />
+    <main>
+      <h3>Some details about my projects 🙋🏽‍♀️🔍</h3>
+      <ProjectsDetails />
+      <style>
+        h3 {
+          @apply text-2xl font-semibold text-white;
+        }
+      </style>
+    </main>
+  </body>
+</html>

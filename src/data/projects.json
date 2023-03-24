@@ -2,31 +2,72 @@
   {
     "img": "/moveup.png",
     "title": "Move Up",
-    "text": "Web application that allows you to view the available physical activity classes, allows you to register, log in and in turn make reservations in the city where the class is located."
+    "text": "Web application that allows you to view the available physical activity classes, allows you to register, log in and in turn make reservations in the city where the class is located.",
+    "gitHub": "https://github.com/karengomezs/moveup",
+    "techStack": [
+      "React",
+      "Create React App",
+      "JavaScript",
+      "Sass",
+      "Css",
+      "Bootstrap",
+      "HTML",
+      "Java",
+      "AWS",
+      "Git",
+      "Npm"
+    ]
+  },
+  {
+    "img": "/dentist.png",
+    "title": "Dentist",
+    "text": "Web application that allows you to view a list of dentists, view their profile, and add them to your favorites list.",
+    "gitHub": "https://github.com/karengomezs/Dentist-Project",
+    "techStack": [
+      "React",
+      "Next",
+      "JavaScript",
+      "Sass",
+      "Css",
+      "Bootstrap",
+      "HTML",
+      "Git",
+      "Npm"
+    ]
   },
   {
     "img": "/todolist.png",
     "title": "To Do List",
-    "text": "To do list, it's a project where user can add, remove, mark as done when desired, in addition, the lastest result of your interaction is save in the browser."
+    "text": "To do list, it's a project where user can add, remove, mark as done when desired, in addition, the lastest result of your interaction is save in the browser.",
+    "gitHub": "https://github.com/karengomezs/to-do-list",
+    "techStack": ["JavaScript", "Css", "HTML", "Git", "Node"]
   },
   {
     "img": "/arrowmusic.png",
     "title": "Music Keyword",
-    "text": "This is a project that produces a different sound for each key the user presses."
+    "text": "This is a project that produces a different sound for each key the user presses.",
+    "gitHub": "https://github.com/karengomezs/music-keyword",
+    "techStack": ["JavaScript", "Css", "HTML", "Git", "Node"]
   },
   {
     "img": "/geometric.png",
     "title": "Geometric Calculator",
-    "text": "This project is about choosing a geometric figure of which you want to calculate the area or perimeter."
+    "text": "This project is about choosing a geometric figure of which you want to calculate the area or perimeter.",
+    "gitHub": "https://github.com/karengomezs/geometric-calculator",
+    "techStack": ["JavaScript", "Sass", "Css", "HTML", "Git", "Node"]
   },
   {
     "img": "/mathproject.png",
     "title": "Math Poject",
-    "text": "Choose the value to calculate mode, median, average and discounts."
+    "text": "Choose the value to calculate mode, median, average and discounts.",
+    "gitHub": "https://github.com/karengomezs/math-project",
+    "techStack": ["JavaScript", "Css", "HTML", "Git", "Node"]
   },
   {
     "img": "/drawarrow.png",
     "title": "Draw Arrow",
-    "text": "Draw arrow is about making a drawing with the keyboard arrows on a canvas starting from a fixed point."
+    "text": "Draw arrow is about making a drawing with the keyboard arrows on a canvas starting from a fixed point.",
+    "gitHub": "https://github.com/karengomezs/draw-arrow",
+    "techStack": ["JavaScript", "Css", "HTML", "Git", "Node"]
   }
 ]
