@@ -4,6 +4,7 @@
     "title": "Move Up",
     "text": "Web application that allows you to view the available physical activity classes, allows you to register, log in and in turn make reservations in the city where the class is located.",
     "gitHub": "https://github.com/karengomezs/moveup",
+    "urlProject": "http://moveup-frontend.s3-website.us-east-2.amazonaws.com/",
     "techStack": [
       "React",
       "Create React App",
@@ -23,6 +24,7 @@
     "title": "Dentist",
     "text": "Web application that allows you to view a list of dentists, view their profile, and add them to your favorites list.",
     "gitHub": "https://github.com/karengomezs/Dentist-Project",
+    "urlProject": "https://dentist-project-589-91agqjq6v-karengomezs.vercel.app/",
     "techStack": [
       "React",
       "Next",
@@ -40,6 +42,7 @@
     "title": "To Do List",
     "text": "To do list, it's a project where user can add, remove, mark as done when desired, in addition, the lastest result of your interaction is save in the browser.",
     "gitHub": "https://github.com/karengomezs/to-do-list",
+    "urlProject": "https://karengomezs.github.io/to-do-list/",
     "techStack": ["JavaScript", "Css", "HTML", "Git", "Node"]
   },
   {
@@ -47,6 +50,7 @@
     "title": "Music Keyword",
     "text": "This is a project that produces a different sound for each key the user presses.",
     "gitHub": "https://github.com/karengomezs/music-keyword",
+    "urlProject": "https://karengomezs.github.io/music-keyword/",
     "techStack": ["JavaScript", "Css", "HTML", "Git", "Node"]
   },
   {
@@ -54,6 +58,7 @@
     "title": "Geometric Calculator",
     "text": "This project is about choosing a geometric figure of which you want to calculate the area or perimeter.",
     "gitHub": "https://github.com/karengomezs/geometric-calculator",
+    "urlProject": "https://karengomezs.github.io/geometric-calculator/",
     "techStack": ["JavaScript", "Sass", "Css", "HTML", "Git", "Node"]
   },
   {
@@ -61,6 +66,7 @@
     "title": "Math Poject",
     "text": "Choose the value to calculate mode, median, average and discounts.",
     "gitHub": "https://github.com/karengomezs/math-project",
+    "urlProject": "https://karengomezs.github.io/math-project/",
     "techStack": ["JavaScript", "Css", "HTML", "Git", "Node"]
   },
   {
@@ -68,6 +74,7 @@
     "title": "Draw Arrow",
     "text": "Draw arrow is about making a drawing with the keyboard arrows on a canvas starting from a fixed point.",
     "gitHub": "https://github.com/karengomezs/draw-arrow",
+    "urlProject": "https://karengomezs.github.io/draw-arrow/",
     "techStack": ["JavaScript", "Css", "HTML", "Git", "Node"]
   }
 ]
