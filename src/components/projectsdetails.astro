@@ -13,14 +13,14 @@ import projectsData from "@/data/projects.json";
             <div class="w-100 h-15">
               <img class="img-project" src={project.img} alt="" />
             </div>
-            <div class="p-4 flex flex-col gap-2 items-center">
+            <div class="p-3 flex flex-col gap-2 items-center">
               <h2 class="title-project">{project.title}</h2>
               <p class="text-project">{project.text}</p>
-              <div class="flex flex-wrap gap-3">
+              <div class="flex justify-center flex-wrap gap-3">
                 {project.techStack.map((tool) => {
                   return (
-                    <div class="">
-                      <p class="text-project">{tool}</p>
+                    <div class="rounded-md bg-slate-700 p-1">
+                      <p class="text-white">{tool}</p>
                     </div>
                   );
                 })}
@@ -34,10 +34,10 @@ import projectsData from "@/data/projects.json";
 </div>
 <style>
   .title-project {
-    @apply text-center font-semibold sm:text-start text-white;
+    @apply text-center text-xl font-semibold sm:text-start text-white;
   }
   .text-project {
-    @apply text-justify  text-slate-400;
+    @apply text-justify  text-slate-400 mb-2;
   }
   .img-project {
     @apply object-fill h-full rounded-t sm:rounded-l sm:max-w-xs;
