@@ -1,0 +1,13 @@
+[
+  {
+    "img": "https://em-content.zobj.net/thumbs/72/whatsapp/326/grinning-cat_1f63a.png",
+    "title": "Assigning types for inline parameters",
+    "urlBlog": "/inline-parameters"
+  },
+
+  {
+    "img": "robot_1f916.png",
+    "title": "Assigning types for an object parameter",
+    "urlBlog": "/object-parameter"
+  }
+]

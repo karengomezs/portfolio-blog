@@ -1,0 +1,32 @@
+---
+import blogsData from "@/data/blogs.json";
+---
+
+<div class="flex flex-col mt-10">
+  {
+    blogsData.map((blog) => {
+      return (
+        <>
+          <a href={blog.urlBlog}>
+            <div class="flex flex-col md:flex-row rounded-md border-2 border-slate-600 hover:border-white my-4">
+              <img class="img-project" src={blog.img} alt="" />
+              <div class="p-3 flex flex-col gap-2 items-center">
+                <h2 class="title-project">{blog.title}</h2>
+              </div>
+            </div>
+          </a>
+        </>
+      );
+    })
+  }
+</div>
+
+<style>
+  .title-project {
+    @apply text-xl font-semibold text-white;
+  }
+
+  .img-project {
+    @apply w-50;
+  }
+</style>
