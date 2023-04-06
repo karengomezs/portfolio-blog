@@ -1,0 +1,41 @@
+# **Assign types to inline parameters**
+
+---
+
+> _Have you wonder how you can assign a type to a parameter? Well, it is easy, let's go to see._
+
+Remember that you have to assign a type for each parameter, it could be a string, a number, a boolean, an object, among others
+
+Here is a snippet
+
+```ts
+function getFullName(name: string, lastName: string) {
+  return `${name} ${lastName}`;
+}
+
+console.log(getFullName("Tim", Jackson)); //Tim Jackson
+```
+
+The value that you are going to assign at the parameter when you call your function to be executed, has to be of the same type you assigned the parameter when you declared your function, for example:
+
+We are going to change the type of the second parameter for a number
+
+```ts
+function getFullName(name: string, lastName: number) {
+  return `${name} ${lastName}`;
+}
+
+console.log(getFullName("Tim", 1)); //Tim 1
+```
+
+When you assign a different types, the contract is not fullfilling and there well be an Error in your code, for example:
+
+```ts
+function getFullName(name: string, lastName: number) {
+  return `${name} ${lastName}`;
+}
+
+console.log(getFullName("Tim", "Castro")); //Tim 1
+```
+
+The Error can be "Argument of type 'string' is not assignable to parameter of type 'number'."
