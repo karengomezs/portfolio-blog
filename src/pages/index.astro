@@ -1,5 +1,4 @@
 ---
-import NavBar from "@/components/navBar.astro";
 import Projects from "@/components/projectshome.astro";
 import Layout from "@/layout/general.astro";
 ---
@@ -36,15 +35,20 @@ import Layout from "@/layout/general.astro";
             learned a lot, and I would like to invite you to take a look at them
             👀👉🏽🔜
           </p>
-          <div class="mt-10 flex justify-center gap-10 sm:justify-start">
+          <div class="mt-10 flex justify-center gap-4 sm:justify-start">
             <a href="https://www.linkedin.com/in/karengomezs/">
-              <i class="fa-brands fa-linkedin hover:text-blue-700"></i>
+              <i
+                title="Linkedin"
+                class="fa-brands fa-linkedin hover:text-blue-500"></i>
             </a>
             <a href="https://github.com/karengomezs"
-              ><i class="fa-brands fa-github hover:text-black"></i></a
+              ><i title="Github" class="fa-brands fa-github hover:text-blue-500"
+              ></i></a
             >
             <a href="https://twitter.com/karengomezsoto"
-              ><i class="fa-brands fa-twitter hover:text-sky-600"></i></a
+              ><i
+                title="Twitter"
+                class="fa-brands fa-twitter hover:text-blue-500"></i></a
             >
           </div>
         </div>
@@ -57,6 +61,7 @@ import Layout from "@/layout/general.astro";
       <h3>Tech Stack</h3>
       <div class="mt-10 flex justify-center gap-7 flex-wrap">
         <a
+          title="JavaScript"
           href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
           target="_blank"
           rel="noreferrer"
@@ -67,7 +72,11 @@ import Layout from "@/layout/general.astro";
             alt="JavaScript"
           /></a
         >
-        <a href="https://git-scm.com/" target="_blank" rel="noreferrer"
+        <a
+          title="Git"
+          href="https://git-scm.com/"
+          target="_blank"
+          rel="noreferrer"
           ><img
             src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg"
             width="36"
@@ -76,6 +85,7 @@ import Layout from "@/layout/general.astro";
           /></a
         >
         <a
+          title="HTML5"
           href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
           target="_blank"
           rel="noreferrer"
@@ -87,6 +97,7 @@ import Layout from "@/layout/general.astro";
           /></a
         >
         <a
+          title="CSS"
           href="https://www.w3.org/TR/CSS/#css"
           target="_blank"
           rel="noreferrer"
@@ -97,7 +108,11 @@ import Layout from "@/layout/general.astro";
             alt="CSS3"
           /></a
         >
-        <a href="https://reactjs.org/" target="_blank" rel="noreferrer"
+        <a
+          title="ReactJs"
+          href="https://reactjs.org/"
+          target="_blank"
+          rel="noreferrer"
           ><img
             src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"
             width="36"
@@ -105,7 +120,11 @@ import Layout from "@/layout/general.astro";
             alt="React"
           /></a
         >
-        <a href="https://nextjs.org/docs" target="_blank" rel="noreferrer"
+        <a
+          title="NextJs"
+          href="https://nextjs.org/docs"
+          target="_blank"
+          rel="noreferrer"
           ><img
             src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored-dark.svg"
             width="36"
@@ -113,7 +132,11 @@ import Layout from "@/layout/general.astro";
             alt="NextJs"
           /></a
         >
-        <a href="https://sass-lang.com/" target="_blank" rel="noreferrer"
+        <a
+          title="Sass"
+          href="https://sass-lang.com/"
+          target="_blank"
+          rel="noreferrer"
           ><img
             src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/sass-colored.svg"
             width="36"
@@ -121,7 +144,11 @@ import Layout from "@/layout/general.astro";
             alt="Sass"
           /></a
         >
-        <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"
+        <a
+          title="Tailwind"
+          href="https://tailwindcss.com/"
+          target="_blank"
+          rel="noreferrer"
           ><img
             src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg"
             width="36"
@@ -130,7 +157,11 @@ import Layout from "@/layout/general.astro";
           /></a
         >
 
-        <a href="https://vitejs.dev/" target="_blank" rel="noreferrer"
+        <a
+          title="Vite"
+          href="https://vitejs.dev/"
+          target="_blank"
+          rel="noreferrer"
           ><img
             src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/vite-colored.svg"
             width="36"
@@ -138,16 +169,12 @@ import Layout from "@/layout/general.astro";
             alt="Vite"
           /></a
         >
-        <!-- <a href="https://www.figma.com/" target="_blank" rel="noreferrer"
-            ><img
-              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg"
-              width="36"
-              height="36"
-              alt="Figma"
-            /></a
-          > -->
 
-        <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer"
+        <a
+          title="Bootstrap"
+          href="https://getbootstrap.com/"
+          target="_blank"
+          rel="noreferrer"
           ><img
             src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg"
             width="36"
@@ -180,7 +207,7 @@ import Layout from "@/layout/general.astro";
     }
 
     .text-project {
-      @apply text-justify  text-slate-400;
+      @apply text-justify  text-slate-300;
     }
     .img-profile {
       @apply w-60  rounded-full;
