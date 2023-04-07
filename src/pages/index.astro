@@ -29,8 +29,8 @@ import Layout from "@/layout/general.astro";
       >
         <div class="flex-1">
           <p>
-            I am a frontend developer, currently learning and building new
-            projects since January 2022 🚀 to strengthen my knowledge and
+            I am a <b>FrontEnd developer</b>, currently learning and building
+            new projects since January 2022 🚀 to strengthen my knowledge and
             solidify my programming skills 👩🏽‍💻. With each of my projects, I have
             learned a lot, and I would like to invite you to take a look at them
             👀 👉🏽 🔜
@@ -208,7 +208,13 @@ import Layout from "@/layout/general.astro";
     </div>
     <!-- div seccion proyectos -->
     <div class="mb-10 text-center sm:text-start">
-      <h3>My projects</h3>
+      <div class="flex justify-between">
+        <h3>My projects</h3>
+
+        <a href="/projects">
+          <button>View All</button>
+        </a>
+      </div>
       <!-- div de todos los proyectos -->
       <Projects />
       <!-- termina div de todos los proyectos -->
@@ -219,9 +225,7 @@ import Layout from "@/layout/general.astro";
     h1 {
       @apply text-4xl font-bold mb-10  text-white;
     }
-    /* span {
-      @apply text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500;
-    } */
+
     .img-profile {
       @apply w-60  rounded-full;
     }

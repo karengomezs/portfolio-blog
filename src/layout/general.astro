@@ -23,7 +23,6 @@ import NavBar from "@/components/navBar.astro";
     <main>
       <slot />
     </main>
-
     <style is:global>
       p {
         @apply text-xl text-justify  text-slate-300;
@@ -36,27 +35,30 @@ import NavBar from "@/components/navBar.astro";
         @apply text-2xl font-semibold text-white;
       }
 
+      h2 {
+      }
+
       .hover-gradient {
         @apply text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500;
       }
 
-      /*
+      .big-container {
+        @apply flex flex-col mt-10 gap-4;
+      }
 
+      .small-container {
+        @apply flex justify-between bg-slate-800 border-slate-600 hover:border-white rounded-md border-2 px-3 py-2;
+      }
+
+      a button {
+        @apply text-center font-semibold text-white rounded-md px-6 py-1 bg-gradient-to-r from-green-500 to-blue-500 hover:from-pink-500 hover:to-yellow-500;
+      }
+
+      /*
       .img-project {
         @apply object-fill h-full rounded-t sm:rounded-l sm:max-w-xs;
       }
-      button {
-        @apply text-center font-semibold text-white bg-slate-700 rounded-md w-40 h-8 my-2;
-      }
 
-      .introduce-text {
-        @apply text-xl font-medium text-justify   text-slate-400;
-      }
-      a {
-        @apply text-3xl font-semibold  text-white;
-      }
-
-     
       */
     </style>
   </body>

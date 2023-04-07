@@ -2,13 +2,13 @@
 import projectsData from "@/data/projects.json";
 ---
 
-<div class="flex flex-col mt-10 gap-4">
+<div class="big-container">
   {
     projectsData.map((project) => {
       return (
         <a href={project.gitHub}>
-          <div class="flex justify-between bg-slate-800 border-slate-600 hover:border-white rounded-md border-2 px-3 py-2">
-            <h2 class="text-white font-semibold my-auto">{project.title}</h2>
+          <div class="small-container">
+            <p class="text-white font-semibold my-auto">{project.title}</p>
             <p class="text-slate-400 font-semibold my-auto">
               Go to
               <i title="github" class="ml-2 fa-brands fa-github text-white" />
@@ -18,12 +18,4 @@ import projectsData from "@/data/projects.json";
       );
     })
   }
-  <div class="flex justify-end">
-    <a href="/projects">
-      <button
-        class="text-center font-semibold text-white rounded-md w-40 h-8 bg-gradient-to-r from-green-600 to-blue-500 hover:from-pink-500 hover:to-yellow-500"
-        >View All</button
-      >
-    </a>
-  </div>
 </div>
