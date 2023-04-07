@@ -14,7 +14,7 @@ const blogs = await getCollection("blog");
               <div class="flex justify-between">
                 <img
                   class="object-cover rounded-l"
-                  src={blog.data.img}
+                  src={`/${blog.data.img}`}
                   alt=""
                 />
                 <p class="text-white font-semibold my-auto ml-3">
