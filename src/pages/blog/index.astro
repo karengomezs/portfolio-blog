@@ -1,5 +1,5 @@
 ---
-import NavBar from "@/components/navBar.astro";
+import Layout from "@/layout/general.astro";
 import Blogsdetails from "@/components/blogsdetails.astro";
 ---
 
@@ -10,16 +10,9 @@ import Blogsdetails from "@/components/blogsdetails.astro";
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blogs</title>
   </head>
-  <body class="bg-slate-900 container px-5 mx-auto max-w-4xl">
-    <NavBar />
-    <main>
-      <h3>Come with me to see some tips in TS 🙋🏽‍♀️🔍</h3>
-      <Blogsdetails />
-      <style>
-        h3 {
-          @apply text-2xl font-semibold text-white;
-        }
-      </style>
-    </main>
-  </body>
+  <Layout>
+    <h3>Come with me to see some tips in TypeScript 🙋🏽‍♀️🔍</h3>
+    <Blogsdetails />
+  </Layout>
+  <style></style>
 </html>
