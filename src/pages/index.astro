@@ -22,20 +22,22 @@ import Layout from "@/layout/general.astro";
   <Layout>
     <div class="mb-10 text-center sm:text-start">
       <h1>
-        Hello, my name is <span class="span">Karen Gómez</span>
+        Hello, my name is <span class="hover-gradient">Karen Gómez</span>
       </h1>
       <div
         class="flex flex-col items-center gap-10 sm:flex-row sm:items-stretch"
       >
         <div class="flex-1">
-          <p class="introduce-text">
+          <p>
             I am a frontend developer, currently learning and building new
             projects since January 2022 🚀 to strengthen my knowledge and
             solidify my programming skills 👩🏽‍💻. With each of my projects, I have
             learned a lot, and I would like to invite you to take a look at them
-            👀👉🏽🔜
+            👀 👉🏽 🔜
           </p>
-          <div class="mt-10 flex justify-center gap-4 sm:justify-start">
+          <div
+            class="mt-10 flex justify-center gap-4 sm:justify-start text-white text-3xl"
+          >
             <a href="https://www.linkedin.com/in/karengomezs/">
               <i
                 title="Linkedin"
@@ -59,7 +61,7 @@ import Layout from "@/layout/general.astro";
     </div>
     <div class="mb-10 text-center sm:text-start">
       <h3>Tech Stack</h3>
-      <div class="mt-10 flex justify-center gap-7 flex-wrap">
+      <div class="mt-10 flex justify-center gap-5 flex-wrap">
         <a
           title="JavaScript"
           href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
@@ -70,6 +72,18 @@ import Layout from "@/layout/general.astro";
             width="36"
             height="36"
             alt="JavaScript"
+          /></a
+        >
+        <a
+          title="Typescript"
+          href="https://www.typescriptlang.org/"
+          target="_blank"
+          rel="noreferrer"
+          ><img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg"
+            width="36"
+            height="36"
+            alt="TypeScript"
           /></a
         >
         <a
@@ -205,31 +219,11 @@ import Layout from "@/layout/general.astro";
     h1 {
       @apply text-4xl font-bold mb-10  text-white;
     }
-
-    .text-project {
-      @apply text-justify  text-slate-300;
-    }
+    /* span {
+      @apply text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500;
+    } */
     .img-profile {
       @apply w-60  rounded-full;
-    }
-    .img-project {
-      @apply object-fill h-full rounded-t sm:rounded-l sm:max-w-xs;
-    }
-    button {
-      @apply text-center font-semibold text-white bg-slate-700 rounded-md w-40 h-8 my-2;
-    }
-    span {
-      @apply text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500;
-    }
-    .introduce-text {
-      @apply text-xl font-medium text-justify   text-slate-400;
-    }
-
-    h3 {
-      @apply text-2xl font-semibold text-white;
-    }
-    a {
-      @apply text-3xl font-semibold  text-white;
     }
   </style>
 </html>
