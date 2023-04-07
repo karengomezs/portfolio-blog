@@ -10,9 +10,9 @@ description: Learning to assign types in typeScript at the beggining
 
 ## Have you asked yourself how you can assign a type to a parameter? Well, it is easy, let's go to see.
 
-Remember that you have to assign a type for each parameter, it could be a string, a number, a boolean, an object, among others
+Remember that you have to assign a type for each [parameter](https://developer.mozilla.org/en-US/docs/Glossary/Parameter), it could be a [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String), a [number](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Number) , a [boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean), an [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object), among others.
 
-## Here is a snippet
+## Snippet String
 
 ```ts
 function getFullName(name: string, lastName: string) {
@@ -22,28 +22,53 @@ function getFullName(name: string, lastName: string) {
 console.log(getFullName("Tim", "Jackson")); //Tim Jackson
 ```
 
-The value that you are going to assign at the parameter when you call your function to be executed, has to be of the same type you assigned the parameter when you declared your function, for example:
-
-We are going to change the type of the second parameter for a number
+## Snippet Boolean
 
 ```ts
-function getFullName(name: string, lastName: number) {
+function canOpenCookieBox(key: boolean) {
+  if (key) {
+    return "Get a cookie";
+  }
+  return "You cannot get a cookie";
+}
+
+console.log(canOpenCookieBox(true)); // Get a cookie
+```
+
+## Snippet Number
+
+```ts
+function getSum(num1: number, num2: number) {
+  return num1 + num2;
+}
+
+console.log(getSum(5, 20)); //25
+```
+
+## Snippet Type Combined
+
+```ts
+function isUnderAge(name: string, age: number) {
+  if (age < 18) {
+    return `${name} isn't an adult`;
+  }
+  return `${name} is an adult`;
+}
+
+console.log(isUnderAge("Tim", 17)); //Tim isn't an adult
+```
+
+The value you pass to the function, when it's executed, has to be the same type you assigned it when the function was declared.
+If it's not, the contract is not fulfilled and there will be an Error, for example:
+
+```ts
+function getFullName(name: string, lastName: string) {
   return `${name} ${lastName}`;
 }
 
-console.log(getFullName("Tim", 1)); //Tim 1
+console.log(getFullName("Tim", 1));
+
+Error: "Argument of type 'number' is not assignable to parameter of type 'string'.";
 ```
-
-When you assign a different types, the contract is not fullfilling and there well be an Error in your code, for example:
-
-```ts
-function getFullName(name: string, lastName: number) {
-  return `${name} ${lastName}`;
-}
-
-console.log(getFullName("Tim", "Castro")); //Tim 1
-```
-
-The Error can be "Argument of type 'string' is not assignable to parameter of type 'number'."
 
 That's all, now yo know how to assign types easily 👌🏽!
