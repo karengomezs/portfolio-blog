@@ -10,22 +10,23 @@ import projectsData from "@/data/projects.json";
       return (
         <>
           <a href={project.urlProject}>
-            <div class="flex flex-col md:flex-row rounded-md border-2 border-slate-600 hover:border-white">
-              <img class="img-project" src={project.img} alt="" />
-              <div class="p-3 flex flex-col gap-2 items-center">
-                <h3 class="mb-0">{project.title}</h3>
-                <p class="mb-2">{project.text}</p>
-
-                <div class="flex justify-center flex-wrap gap-3">
-                  {project.techStack.map((tool) => {
-                    return (
-                      <div class="rounded-md bg-slate-700 p-1">
-                        <p class="text-white">{tool}</p>
-                      </div>
-                    );
-                  })}
+            <div class="flex flex-col md:flex-row rounded-t border-2 border-slate-600 hover:border-white">
+              <div class="flex flex-col md:flex-row border-slate-600">
+                <img class="img-project" src={project.img} alt="" />
+                <div class="px-3 my-auto">
+                  <h3 class="mb-2">{project.title}</h3>
+                  <p class="mb-2">{project.text}</p>
                 </div>
               </div>
+            </div>
+            <div class="flex p-3 flex-wrap gap-3 rounded-b border-b-2 border-r-2 border-l-2  border-slate-600">
+              {project.techStack.map((tool) => {
+                return (
+                  <div class="rounded-md bg-slate-800 px-2 py-1 flex">
+                    <small class="text-slate-300 ">{tool}</small>
+                  </div>
+                );
+              })}
             </div>
           </a>
         </>
@@ -35,6 +36,6 @@ import projectsData from "@/data/projects.json";
 </div>
 <style>
   .img-project {
-    @apply object-fill rounded-t sm:rounded-l sm:max-w-xs;
+    @apply object-contain rounded-t sm:rounded-l sm:max-w-xs;
   }
 </style>
