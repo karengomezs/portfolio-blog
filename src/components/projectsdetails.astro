@@ -10,7 +10,7 @@ import projectsData from "@/data/projects.json";
       return (
         <>
           <a href={project.urlProject}>
-            <div class="flex flex-col md:flex-row rounded-t border-2 border-slate-600 hover:border-white">
+            <div class="flex flex-col md:flex-row rounded-t  border-2 bg-slate-800 border-slate-600 hover:border-white">
               <div class="flex flex-col md:flex-row border-slate-600">
                 <img class="img-project" src={project.img} alt="" />
                 <div class="px-3 my-auto">
@@ -36,6 +36,6 @@ import projectsData from "@/data/projects.json";
 </div>
 <style>
   .img-project {
-    @apply object-contain rounded-t sm:rounded-l sm:max-w-xs;
+    @apply object-contain rounded-t sm:rounded-l sm:rounded-r-none sm:max-w-xs;
   }
 </style>
