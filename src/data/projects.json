@@ -1,5 +1,13 @@
 [
   {
+    "img": "/gallery.png",
+    "title": "Gallery",
+    "text": "Gallery and fast image search engine",
+    "gitHub": "https://github.com/karengomezs/Gallery",
+    "urlProject": "https://gallery-gamma-three.vercel.app/",
+    "techStack": ["React", "Next", "TypeScript", "Tailwind", "Git", "Npm"]
+  },
+  {
     "img": "/moveup.png",
     "title": "Move Up",
     "text": "Web application that allows you to view the available physical activity classes, allows you to register, log in and in turn make reservations in the city where the class is located.",
