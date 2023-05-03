@@ -10,7 +10,7 @@ description: Learning to assign types in typeScript at the beggining
 
 **_If you want to learn to assign different types to different data, here there are some ways_**
 
-To do this, you can use [Interfaces](https://www.typescriptlang.org/docs/handbook/typescript-tooling-in-5-minutes.html#interfaces) and [Types](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html), interfaces are like a "contract", it specifies the content, properties or functions to implement or meet the contract. Remember that **it does not contain** values or code in your functions. Let's do it!
+You can use [Interfaces](https://www.typescriptlang.org/docs/handbook/typescript-tooling-in-5-minutes.html#interfaces) and [Types](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html), interfaces are like a "contract", it specifies the content, properties or functions to implement or meet the contract. Remember that **it does not contain** values or code in your functions. Let's do it!
 
 ### Snippet Variable
 
@@ -21,10 +21,10 @@ const word: string = "hello";
 let boo: boolean = true;
 const arr1: Array<number> = [1, 2, 3];
 let arr2: number[] = [4, 5, 6];
-const obj1: object = { x: 1 };
 let obj2: any = { y: "hello" };
+//const obj1: object = { x: 1 }; //not common way
 
-//Using Type
+//Second Example
 type Word = string;
 const word3: Word = "hello";
 ```
