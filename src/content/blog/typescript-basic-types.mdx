@@ -1,6 +1,6 @@
 ---
 img: ts-2.png
-title: Assigning types to obejcts, arrays ans variables
+title: Assigning types to objects, arrays ans variables
 description: Learning to assign types in typeScript at the beggining
 ---
 
@@ -27,4 +27,51 @@ let obj2: any = { y: "hello" };
 //Second Example
 type Word = string;
 const word3: Word = "hello";
+```
+
+### Snippet Object
+
+```ts
+//1. Defining the Type
+
+interface User {
+  id: number;
+  firstName: string;
+  lastName: string;
+}
+
+//2. Here, you define the object and specify the type with --> :"User", you must use the same
+//keys on the type and object declaration to meet the contract
+
+const defaultUser: User = {
+  id: 1,
+  firstName: "karen",
+  lastName: "gomez",
+};
+
+//3. And then.. go to implements in a function
+
+const getUserFirstName = (user: User) => {
+  return user.firstName;
+};
+
+console.log(getUserFirstName(defaultUser)); //"karen"
+
+//Another Option with inline types
+
+const getUserId = (user: {
+  id: number;
+  firstName: string;
+  lastName: string;
+}) => {
+  return user.id;
+};
+
+console.log(getUserId(defaultUser)); //1
+```
+
+### Snippet Variable
+
+```
+
 ```
