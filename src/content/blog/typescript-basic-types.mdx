@@ -72,6 +72,24 @@ console.log(getUserId(defaultUser)); //1
 
 ### Snippet Variable
 
-```
+```ts
+//there are some ways to declare an array type and use it
 
+let list1: number[] = [1, 2, 3];
+let list2: Array<number> = [4, 5, 6];
+
+interface Post1 {
+  id: number;
+  subTitle: string;
+}
+
+// meeting the contract
+// let poster33: Post1 = {
+//   id: 1,
+//   subTitle: "the world",
+// };
+
+//these two, are the same type, an array with objects type Post1
+let posterArray1000: Post1[] = [];
+let posterArray2000: Array<Post1> = [];
 ```
