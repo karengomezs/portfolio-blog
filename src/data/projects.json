@@ -1,5 +1,13 @@
 [
   {
+    "img": "/RickandMorty.png",
+    "title": "Rick and Morty",
+    "text": "Web page to explore details about Rick and Morty characters",
+    "gitHub": "https://github.com/karengomezs/rickandmorty",
+    "urlProject": "https://rickandmorty-dun-five.vercel.app/",
+    "techStack": ["React", "Next", "TypeScript", "Tailwind", "Git", "Npm"]
+  },
+  {
     "img": "/gallery.png",
     "title": "Gallery",
     "text": "Gallery and fast image search engine",
