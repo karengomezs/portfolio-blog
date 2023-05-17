@@ -6,7 +6,7 @@ import projectsData from "@/data/projects.json";
   {
     projectsData.map((project) => {
       return (
-        <a href={project.gitHub}>
+        <a href={project.urlProject} target="_blank">
           <div class="flex justify-between bg-slate-800 border-slate-600 hover:border-white rounded-md border-2 px-3 py-2">
             <p class="text-white font-semibold my-auto">{project.title}</p>
             <p class="text-slate-400 font-semibold my-auto">
