@@ -1,5 +1,13 @@
 [
   {
+    "img": "/marvel.png",
+    "title": "Marvel",
+    "text": "Web page about marvel characters and their details ",
+    "gitHub": "https://github.com/karengomezs/marvel",
+    "urlProject": "https://marvel-nu-one.vercel.app/",
+    "techStack": ["React", "Next", "TypeScript", "Tailwind", "Git", "Npm"]
+  },
+  {
     "img": "/RickandMorty.png",
     "title": "Rick and Morty",
     "text": "Web page to explore details about Rick and Morty characters",
