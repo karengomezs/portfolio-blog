@@ -9,7 +9,7 @@ import projectsData from "@/data/projects.json";
     projectsData.map((project) => {
       return (
         <>
-          <a href={project.gitHub}>
+          <a href={project.gitHub} target="_blank">
             <div class="flex flex-col md:flex-row rounded-t  border-2 bg-slate-800 border-slate-600 hover:border-white">
               <div class="flex flex-col md:flex-row border-slate-600">
                 <img class="img-project" src={project.img} alt="" />
