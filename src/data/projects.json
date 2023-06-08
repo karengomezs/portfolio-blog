@@ -1,8 +1,16 @@
 [
   {
+    "img": "/tesla.png",
+    "title": "Tesla",
+    "text": "tesla home page replica",
+    "gitHub": "https://github.com/karengomezs/tesla",
+    "urlProject": "https://tesla-czaiupa80-karengomezs.vercel.app/",
+    "techStack": ["Astro", "JavaScript", "Tailwind", "Git", "Npm"]
+  },
+  {
     "img": "/marvel.png",
     "title": "Marvel",
-    "text": "Web page about marvel characters and their details ",
+    "text": "Web page about marvel characters and their details",
     "gitHub": "https://github.com/karengomezs/marvel",
     "urlProject": "https://marvel-nu-one.vercel.app/",
     "techStack": ["React", "Next", "TypeScript", "Tailwind", "Git", "Npm"]
