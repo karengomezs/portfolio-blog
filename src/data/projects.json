@@ -1,5 +1,22 @@
 [
   {
+    "img": "/twilly.png",
+    "title": "Twilly",
+    "text": "Twilly Social media, twitter mini clone",
+    "gitHub": "https://github.com/karengomezs/twilly",
+    "urlProject": "https://twilly-m1kjki3fv-karengomezs.vercel.app/",
+    "techStack": [
+      "React",
+      "Next 13",
+      "TypeScript",
+      "Tailwind",
+      "Clerk",
+      "Firebase",
+      "Git",
+      "Npm"
+    ]
+  },
+  {
     "img": "/tesla.png",
     "title": "Tesla",
     "text": "tesla home page replica",
