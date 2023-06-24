@@ -1,5 +1,25 @@
 [
   {
+    "img": "/kshop.png",
+    "title": "K Shop",
+    "text": "Fashion E-commerce",
+    "gitHub": "https://github.com/karengomezs/ecommerce",
+    "urlProject": "https://ecommerce-hvsuckq86-karengomezs.vercel.app/",
+    "techStack": [
+      "React",
+      "Nextjs 13",
+      "Vercel",
+      "TypeScript",
+      "Zod",
+      "React Hook Form",
+      "Tailwind",
+      "Clerk",
+      "Firebase",
+      "Git",
+      "pnpm"
+    ]
+  },
+  {
     "img": "/twilly.png",
     "title": "Twilly",
     "text": "Twilly Social media, twitter mini clone",
@@ -7,7 +27,8 @@
     "urlProject": "https://twilly-m1kjki3fv-karengomezs.vercel.app/",
     "techStack": [
       "React",
-      "Next 13",
+      "Nextjs 13",
+      "Vercel",
       "TypeScript",
       "Tailwind",
       "Clerk",
@@ -22,7 +43,7 @@
     "text": "tesla home page replica",
     "gitHub": "https://github.com/karengomezs/tesla",
     "urlProject": "https://tesla-czaiupa80-karengomezs.vercel.app/",
-    "techStack": ["Astro", "JavaScript", "Tailwind", "Git", "Npm"]
+    "techStack": ["Astro", "JavaScript", "Vercel", "Tailwind", "Git", "Npm"]
   },
   {
     "img": "/marvel.png",
