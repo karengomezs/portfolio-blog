@@ -4,7 +4,7 @@
     "title": "K Shop",
     "text": "Fashion E-commerce",
     "gitHub": "https://github.com/karengomezs/ecommerce",
-    "urlProject": "https://ecommerce-hvsuckq86-karengomezs.vercel.app/",
+    "urlProject": "https://kshopecommerce.vercel.app/",
     "techStack": [
       "React",
       "Nextjs 13",
@@ -24,7 +24,7 @@
     "title": "Twilly",
     "text": "Twilly Social media, twitter mini clone",
     "gitHub": "https://github.com/karengomezs/twilly",
-    "urlProject": "https://twilly-m1kjki3fv-karengomezs.vercel.app/",
+    "urlProject": "https://twilly.vercel.app",
     "techStack": [
       "React",
       "Nextjs 13",
@@ -42,7 +42,7 @@
     "title": "Tesla",
     "text": "tesla home page replica",
     "gitHub": "https://github.com/karengomezs/tesla",
-    "urlProject": "https://tesla-czaiupa80-karengomezs.vercel.app/",
+    "urlProject": "https://teslanding.vercel.app/",
     "techStack": ["Astro", "JavaScript", "Vercel", "Tailwind", "Git", "Npm"]
   },
   {
@@ -50,7 +50,7 @@
     "title": "Marvel",
     "text": "Web page about marvel characters and their details",
     "gitHub": "https://github.com/karengomezs/marvel",
-    "urlProject": "https://marvel-nu-one.vercel.app/",
+    "urlProject": "https://marvelheroesmovies.vercel.app/",
     "techStack": ["React", "Next", "TypeScript", "Tailwind", "Git", "Npm"]
   },
   {
@@ -58,7 +58,7 @@
     "title": "Rick and Morty",
     "text": "Web page to explore details about Rick and Morty characters",
     "gitHub": "https://github.com/karengomezs/rickandmorty",
-    "urlProject": "https://rickandmorty-dun-five.vercel.app/",
+    "urlProject": "https://rickandmortyinformation.vercel.app/",
     "techStack": ["React", "Next", "TypeScript", "Tailwind", "Git", "Npm"]
   },
   {
@@ -66,7 +66,7 @@
     "title": "Gallery",
     "text": "Gallery and fast image search engine",
     "gitHub": "https://github.com/karengomezs/Gallery",
-    "urlProject": "https://gallery-gamma-three.vercel.app/",
+    "urlProject": "https://randomgallery.vercel.app/",
     "techStack": ["React", "Next", "TypeScript", "Tailwind", "Git", "Npm"]
   },
   {
