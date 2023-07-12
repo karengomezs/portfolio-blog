@@ -42,7 +42,7 @@
   {
     "img": "/twilly.png",
     "title": "Twilly",
-    "text": "Twilly Social media, twitter mini clone",
+    "text": "Twilly Social media, twitter mini clone (responsive)",
     "gitHub": "https://github.com/karengomezs/twilly",
     "urlProject": "https://twilly.vercel.app",
     "techStack": [
@@ -60,7 +60,7 @@
   {
     "img": "/tesla.png",
     "title": "Tesla",
-    "text": "tesla home page replica",
+    "text": "tesla home page replica (responsive)",
     "gitHub": "https://github.com/karengomezs/tesla",
     "urlProject": "https://teslanding.vercel.app/",
     "techStack": ["Astro", "JavaScript", "Vercel", "Tailwind", "Git", "Npm"]
