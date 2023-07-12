@@ -1,5 +1,25 @@
 [
   {
+    "img": "/todoapp.png",
+    "title": "Todo App",
+    "text": "Todo App with authentication and database (responsive)",
+    "gitHub": "https://github.com/karengomezs/todolist",
+    "urlProject": "https://todolist-kgs.vercel.app/",
+    "techStack": [
+      "React",
+      "Nextjs 13",
+      "Vercel",
+      "TypeScript",
+      "Zod",
+      "React Hook Form",
+      "Tailwind",
+      "Clerk",
+      "Firebase",
+      "Git",
+      "pnpm"
+    ]
+  },
+  {
     "img": "/kshop.png",
     "title": "K Shop",
     "text": "Fashion E-commerce",
